@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Comic-Font';
+    src: url('batman_forever/batmfa__.ttf') format('truetype');
+  }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #7B1F1F;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-link{
+    margin: auto 0;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.content{
+    position: fixed;
+    top: 90px;
+}
+
+.title{
+    font-family: "Comic-Font";
+    color: white;
+    font-size: 60px;
+    margin: 20px 0 10px 30px;
+}
+
+.subtitle{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px 40px;
+    font-size: 30px;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: #D1D1D1;
+    margin: 10px 10px 60px 40px;
+
+}
+
+.left-content{
+    float: left;
+    width: 74%;
+}
+
+.right-content{
+    float: left;
+    width: 26%;
+}
+
+.poster{
+    width: 500px;
+    height: 850px;
+}
+
+.form{
+    width: 1500px;
+    position: fixed;
+    top: 90px;
+    background-color: #575757;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.code{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: #D1D1D1;
+    margin: 0 0 10px 40px;
+    display: block;
+}
+
+.promise{
+    display: inline-block;
+    margin: 0 0 20px 10px;
+}
+
+.list{
+    width: 1200px;
+    position: fixed;
+    top: 90px;
+    background-color: #575757;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: repeat(2, 344px);
+    grid-template-columns: repeat(3, 570px);
+    /* gap: 40px; */
+    width: 1920px;
+    align-items: center;
+}
+
+.picture-item{
+    height: 334px;
+    width: 400px;
+    margin: 10px 170px;
+    text-align: center;
+}
+
+.picture{
+    height: 300px;
+    width: 400px;
+}
+
+.fame{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #D1D1D1;
+    margin: 0;
+}
+
+
+fieldset{
+    border: none;
+}
+
+body{
+    background-color: #575757;
+}
+
+input{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    width: 1200px;
+    height: 20px;
+    margin: 0 0 20px 40px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    background-color: #D9D9D9;
+    border: none;
+    margin: 0 0 20px 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+textarea{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 10px 40px;
+    width: 1200px;
+    height: 120px;
+    resize: none;
+}
+
+button{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+    margin-right: 230px;
+}
+
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #D1D1D1;
+    margin: 40px 40px;
+}
